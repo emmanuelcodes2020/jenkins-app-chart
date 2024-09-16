@@ -1,7 +1,10 @@
 
-devnamespace: dev
+toolingnamespace: tooling
 jenkinsApplicationName: jenkins-app
-jenkinsservice: jenkins-app-service
 jenkinsimage:
   name: 416591745024.dkr.ecr.eu-west-2.amazonaws.com/personal-jenkins-repo/jenkins-application
   tag: "latest"
+
+jenkinsservice: jenkins-app-service
+serviceingress:  jenkins-ingress-service
+jenkinsappbaseURL : jenkins.globalfrontierlink.co.uk
